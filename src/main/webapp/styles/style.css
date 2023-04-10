@@ -1,0 +1,35 @@
+header.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 22px;
+    background: #202020;
+    color: #c5c5c5;
+    align-items: center;
+}
+
+.hero-image {
+    width: 50px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    display: none;
+}
+
+.profession-image-icon {
+    width: 50px;
+    transition: all 300ms ease-in-out;
+}
+
+.profession-image-icon:hover {
+    transform: scale(500%);
+    cursor: pointer;
+}
+
+#actions a {
+    margin-right: 10px;
+}
+
+div.heroes {
+    display: none;
+}
